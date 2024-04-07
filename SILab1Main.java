@@ -13,6 +13,14 @@ public class SILab1Main {
         for (int i = 0; i < n; i++) {
             list.add(sc.next());
         }
+
+        // First func
+
 	System.out.println(SILab1_1.filterOddLengthStrings(list));
+
+	// Secpmd func
+
+	System.out.println(SILab1_2.makeBigStringFrom(list));
+
     }
 }
